@@ -9,7 +9,7 @@ class AddMeetup extends Component{
       url:'http://localhost:3000/api/meetups',
       data: newMeetup
     }).then(response => {
-      this.props.history.push('/');
+      this.props.history.push('/'); // props.history is a react-router method that redirects you to root path
     }).catch(err => console.log(err));
   }
 
