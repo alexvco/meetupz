@@ -61,7 +61,7 @@ class EditMeetup extends Component{
     const name = target.name;
 
     this.setState({
-      [name]: value
+      [name]: value // this is because we are using the same handleInputChange method for all 3 input fields, basically making it dynamic (its either name, city, address)
     });
   }
 
