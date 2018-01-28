@@ -1,5 +1,7 @@
 # Meetupz Full Stack React & LoopBack Application
 
+## Full CRUD functionality with react and react-dom
+
 You need MongoDB installed as we are using the Mongo connector for Loopback
 
 ### Usage
